@@ -17,7 +17,7 @@ function App() {
           <Header />
           <Routes>
             {/* Use Outlet */}
-            <Route path='/photo' element={<Photo />}>
+            <Route path='/photos' element={<Photo />}>
               <Route path='' element={<MainPage />}></Route>
               <Route path='add' element={<AddEditPage />}></Route>
               <Route path=':photoId' element={<AddEditPage />}></Route>
