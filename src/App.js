@@ -10,6 +10,7 @@ const Photo = React.lazy(() => import('./features/Photo'))
 // const Cart = React.lazy(() => import('./features/Cart'))
 
 function App() {
+
   return (
     <div className='photo-app'>
       <Suspense fallback={<div>Loading...</div>}>
